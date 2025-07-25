@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.7in,top=0.5in,right=0.8in,bottom=0.5in]{geometry} % Document margins
+
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage[colorlinks,urlbordercolor=black,urlcolor=black]{hyperref}
+
+\name{\Huge Q\huge izhou \Huge{Fang}} % Your name
+%\address{Los Angeles} %
+\address{15501 N Pennsylvania Ave, Edmond, OK 73013 $|$ (626) 313-8139 $|$  \href{mailto:qfang8ae@gmail.com}{\textcolor{black}{qfang8ae@gmail.com}}}
+\address{\href{https://github.com/wsxxs2222}{\textcolor{black}{GitHub}} $|$ \href{https://www.linkedin.com/in/qizhou-fang-5932a9289}{\textcolor{black}{LinkedIn}}}
+\begin{document}
+
+	
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+        \begin{rSection}{Work Experience}
+
+            \begin{rSubsection}{\textbf{Android App Development Intern}}{Jan.2025 – July.2025}{YouVersion, Edmond, OK}{}
+                \item Developed and maintained features for the \textit{Bible App Lite} Android application using Flutter and Dart, serving over 55 million users.
+                \item Collaborated with product and design teams to implement new UI components and user flows.
+            \end{rSubsection}
+        
+            \begin{rSubsection}{\textbf{Computer Fabrication Research Assistant}}{July 2023 – June 2024}{Davis, CA}{}
+                \item Wrote Python and C++ scripts to simulate and generate 3D-printable microstructures for materials research.
+            \end{rSubsection}
+        
+        \end{rSection}
+ 
+	\begin{rSection}{Education}
+		
+		\begin{list}{$\bullet$}{\leftmargin=1em} % \cdot used for bullets, no indentation
+			\itemsep -0.5em \vspace{0em} % Compress items in list together for aesthetics
+			\item{
+			{\bf University of California, Davis} \hfill\textit{Dec.2024} \\
+			Master of Science, Computer Science \\
+            \textit{Related Courses: Machine Learning \& Discovery, Advanced Machine Learning} \\
+            \vspace{-0.5em}
+		}
+
+			\item{{\bf University of California, Irvine} \hfill\textit {Sep.2022} \\
+				Bachelor of Science, Mathematics, Concentration in Data Science\\
+				\vspace{-0.5em}\small
+			}
+			
+		\end{list}
+	\end{rSection}
+	
+	\begin{rSection}{Projects}
+
+        \begin{rSubsection}{\bf Bible App Lite – “Get Help” Feature Redesign (YouVersion Internship)}{Mar.2025 - June.2025}{}{}
+             \item {Integrated real-time customer support via WhatsApp and SMS, increasing user accessibility and satisfaction through familiar messaging platforms.}
+             \item {Designed client-side caching and refresh logic to store and update support contact data efficiently.}
+             \item {Streamlined the ``Get Help" experience by optimizing API interactions, leading to reduced user friction and faster access to support resources.}
+        \end{rSubsection}
+
+        \begin{rSubsection}{\bf Microstructure Design Automation for Target Elasticity \href{https://docs.google.com/presentation/d/1vE1fTo60TzdEpiMjofUK8VLwj55keTxsokcQTI54zJE/edit?usp=sharing}{[Slides]}}{July 2023 -- June 2024}{}{}
+            \item{Modeled the microstructure optimization task as a loss minimization problem to match target elasticity properties using SciPy.}
+            \item{Improved custom C++ linear solvers to handle periodic boundary conditions, reducing computation time by 41\%.}
+            \item{Evaluated and compared multiple loss functions to improve convergence and accuracy of generated microstructures.}
+        \end{rSubsection}
+
+        \begin{rSubsection}{\bf IBlog – Full-Stack Blog Platform \href{https://github.com/JaekeeAI/ecs162finalproject}{[GitHub]}}{May.2024 - June.2024}{}{}
+             \item{Built a blog platform using Handlebars for server-side rendering and JavaScript for dynamic client interactions.}
+             \item{Implemented RESTful APIs to manage user accounts and blog posts using a SQLite database.}
+             \item{Added search and sort functionality to enhance user experience and content discoverability.}
+        \end{rSubsection}
+            
+        \begin{rSubsection}{\bf Pygame Chess UI – Standard + Fog of War Mode\href{https://github.com/wsxxs2222/chess_game}{[GitHub]}}{July 2023 -- March 2024}{}{ }
+            \item{Created a custom graphical chess interface using Pygame with piece animations and event handling.}
+            \item{Developed LAN multiplayer using Python sockets to support both standard and Fog of War chess variants across multiple devices.}
+        \end{rSubsection}
+    
+        \begin{rSubsection}{\bf AI-Based E-Sports Prediction Tool\href{https://math10finalproject-k63yumzsdperqx7hdd2pww.streamlit.app/}{[Live Demo]}}{Nov.2021 - Dec.2021}{}{}
+            \item {Trained Keras-based binary classification models to predict e-sports match outcomes using gameplay statistics from the first 10 minutes.}
+            \item{Built a Streamlit web application to visualize predictions and display interactive game insights.}
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Skills}
+	\begin{itemize}
+	    \item Programming Languages: Dart, JavaScript, HTML, CSS, python, C++
+        \item Frameworks/Libraries: PyTorch, Numpy, Flutter, Riverpod, React, Node.js, Express.js ,SQL
+        \item Development Tools: Git, Bash, Docker, NPM, Android Studio, Visual Studio Code
+        
+	\end{itemize}
+		
+	\end{rSection}
+	
+\end{document}
+
